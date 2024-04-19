@@ -51,7 +51,7 @@ I have not finished or have the end result for this task due to several problems
 - For multitask learning, we may need 2 seperated dataset for 2 heads of task A and B. However, the provided dataset is not in that format (dataset problem).
 - Cannot train on local machine due to number of classes are not equal to the dataset (dataset problem).
 - Cannot train on Google Colab due to mismatch CUDA version or problems with CUDA (device problem).
-- Large dataset lead to small batch size at around 2, 4 or 8 (hardware resource problem).
+- Large dataset lead to small batch size at around 2, 4 or 8 lead to longer training time (hardware resource problem).
 
 ## Further Exploration:
 
